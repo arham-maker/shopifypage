@@ -26,7 +26,7 @@ export function SiteHeader() {
           <div className="row align-items-center">
             <div className="col-md-3">
               <a href="/" className="logo">
-                <img style={{maxWidth: 150}} src="/assets/images/logo-white.png" width="300px" alt="" />
+                <img src="/assets/images/logo-white.png" width={150} alt="" />
                 {/*<h2 class="text-white">Shopify EcomSolution</h2>*/}
               </a>
             </div>

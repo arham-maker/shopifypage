@@ -215,6 +215,12 @@ button {
     max-width: 300px !important;
 }
 
+header.spad .logo img {
+  max-width: 150px !important;
+  width: 150px;
+  height: auto;
+}
+
 .slick-dots li button {
   height: 8px;
   width: 8px;
@@ -311,7 +317,7 @@ header {
   color: #fff !important;
 }
 .stickyOpen .logo {
-  width: 210px;
+  width: 150px;
 }
 
 /* Hamburger Menu */

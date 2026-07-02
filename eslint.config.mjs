@@ -16,7 +16,7 @@ const eslintConfig = defineConfig([
     "crawl/**",
   ]),
   {
-    files: ["components/original/**/*.tsx"],
+    files: ["components/original/**/*.tsx", "components/lp2/**/*.tsx"],
     rules: {
       "@next/next/no-img-element": "off",
       "@next/next/no-html-link-for-pages": "off",

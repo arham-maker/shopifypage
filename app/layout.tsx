@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { GlobalPopups, SiteFooter, SiteHeader, SiteScripts } from "@/components/original";
+import { SiteChrome } from "@/components/SiteChrome";
+import "./globals.css";
 import "./original-layout.css";
 import "./original-style.css";
-import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Shopify EcomSolution | Shopify Design and Growth Agency",
@@ -16,19 +16,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className="h-full antialiased"
-    >
+    <html lang="en" className="h-full antialiased">
       <head>
         <link rel="icon" href="/assets/images/favicon.png" type="image/png" />
       </head>
       <body className="min-h-full flex flex-col">
-        <SiteHeader />
-        {children}
-        <SiteFooter />
-        <GlobalPopups />
-        <SiteScripts />
+        <SiteChrome>{children}</SiteChrome>
       </body>
     </html>
   );
