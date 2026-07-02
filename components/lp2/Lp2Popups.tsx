@@ -18,7 +18,7 @@
                 <input type="email" name="email" placeholder="Email Address" required />
                 <input type="tel" name="number" placeholder="Phone Number" required />
                 <textarea name="message" placeholder="Business Industry / Message" required defaultValue="" />
-                <input type="hidden" name="pageUrl" defaultValue="lp2" />
+                <input type="hidden" name="pageUrl" defaultValue="lp" />
                 <input type="hidden" name="location" defaultValue="Package Popup" />
                 <input type="hidden" name="package_name" defaultValue="" />
                 <input type="hidden" name="package_cost" defaultValue="" />
@@ -52,7 +52,7 @@
                 <input type="email" name="email" placeholder="Email Address" required />
                 <input type="tel" name="number" placeholder="Phone Number" required />
                 <textarea name="message" placeholder="Business Industry" required defaultValue="" />
-                <input type="hidden" name="pageUrl" defaultValue="lp2" />
+                <input type="hidden" name="pageUrl" defaultValue="lp" />
                 <input type="hidden" name="location" defaultValue="Website Popup" />
                 <button type="submit" className="theme-btn">Get Started Now</button>
               </form>
@@ -76,7 +76,7 @@
               <input type="email" name="email" placeholder="Email Address" required />
               <input type="tel" name="number" placeholder="Phone Number" required />
               <textarea name="message" placeholder="Business Industry / Message" required defaultValue="" />
-              <input type="hidden" name="pageUrl" defaultValue="lp2" />
+              <input type="hidden" name="pageUrl" defaultValue="lp" />
               <input type="hidden" name="location" defaultValue="Package Popup 2" />
               <input type="hidden" name="package_name" defaultValue="" />
               <input type="hidden" name="package_cost" defaultValue="" />
@@ -113,7 +113,7 @@
                 <input type="email" name="email" placeholder="Email Address" required />
                 <input type="tel" name="number" placeholder="Phone Number" required />
                 <textarea name="message" placeholder="Business Industry / Message" required defaultValue="" />
-                <input type="hidden" name="pageUrl" defaultValue="lp2" />
+                <input type="hidden" name="pageUrl" defaultValue="lp" />
                 <input type="hidden" name="location" defaultValue="Exit Popup" />
                 <button type="submit" className="theme-btn">Claim My Offer</button>
               </form>

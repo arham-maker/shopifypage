@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import { MarqueeTopbar } from "@/components/MarqueeTopbar";
 
-const MARQUEE_ROUTES = new Set(["/", "/lp2"]);
+const MARQUEE_ROUTES = new Set(["/", "/lp"]);
 
 export function MarqueeTopbarGate() {
   const pathname = usePathname();

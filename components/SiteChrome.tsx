@@ -10,7 +10,7 @@ import {
 
 export function SiteChrome({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const isLandingPage = pathname.startsWith("/lp2");
+  const isLandingPage = pathname.startsWith("/lp");
 
   if (isLandingPage) {
     return <>{children}</>;
