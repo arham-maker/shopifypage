@@ -421,10 +421,8 @@ $('.packpopup').click(function(){
 /* ─── Chat Now button handler ───────────────────────────────────────────── */
 $(document).on('click', '.chat-btn', function (e) {
     e.preventDefault();
-    if (window.zE) {
-        zE('webWidget', 'open');
-    } else if (window.$zopim) {
-        $zopim.livechat.window.show();
+    if (typeof window.zE === 'function') {
+        window.zE('webWidget', 'open');
     }
 });
 
@@ -442,7 +440,7 @@ function sendmailApi(name, email, number, message, $btn, originalBtnText, websit
         alert(errMsg || 'Something went wrong. Please try again.');
     }
 
-    function doSend(ip) {
+    function doSend() {
         var payload = {
             first_name:          firstName,
             last_name:           lastName,
@@ -450,9 +448,7 @@ function sendmailApi(name, email, number, message, $btn, originalBtnText, websit
             phone:               number,
             message:             message,
             website:             website || '',
-            consent:             true,
-            hidden_ip:           ip,
-            hidden_page_url:     pageUrl,
+            pageUrl:             pageUrl,
             hidden_utm_source:   urlParams.get('utm_source')   || '',
             hidden_utm_medium:   urlParams.get('utm_medium')   || '',
             hidden_utm_campaign: urlParams.get('utm_campaign') || '',
@@ -479,16 +475,7 @@ function sendmailApi(name, email, number, message, $btn, originalBtnText, websit
         });
     }
 
-    var geoController = new AbortController();
-    var geoTimeout    = setTimeout(function () { geoController.abort(); }, 5000);
-
-    fetch('https://ipapi.co/json/', { signal: geoController.signal })
-        .then(function (r) { return r.json(); })
-        .then(function (geo) {
-            clearTimeout(geoTimeout);
-            doSend(geo.ip || '');
-        })
-        .catch(function () { doSend(''); });
+    doSend();
 }
 
 /* ─── 1. Free Consultation popups (.popup-main / .popup-main2) ───────────── */

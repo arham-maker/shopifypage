@@ -11,9 +11,9 @@ import {
 } from "@/components/original";
 
 export const metadata: Metadata = {
-  title: "Custom Shopify Theme | Shopify EcomSolution",
+  title: "Custom Shopify Theme | Shopify Page",
   description:
-    "Get a next-level Shopify and Shopify Plus store with custom design, development, migration, and maintenance from Shopify EcomSolution.",
+    "Get a next-level Shopify and Shopify Plus store with custom design, development, migration, and maintenance from Shopify Page.",
 };
 
 export default function CustomShopifyThemePage() {

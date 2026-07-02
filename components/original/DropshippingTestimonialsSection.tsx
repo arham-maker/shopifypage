@@ -1,4 +1,4 @@
-﻿export function DropshippingTestimonialsSection() {
+export function DropshippingTestimonialsSection() {
   return (
     <section className="s11 spad">
       <div className="container-fluid">
@@ -16,8 +16,8 @@
             <div className="testi-box">
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti"><img src="/assets/images/facebook-one-line-logo.png" alt="" /></div>
-              {/*<h4>Shopify EcomSolution was the key to success</h4>*/}
-              <p> They are the best; the team at Shopify EcomSolution explained every step and helped
+              {/*<h4>Shopify Page was the key to success</h4>*/}
+              <p> They are the best; the team at Shopify Page explained every step and helped
                 streamline our entire dropshipping process. From
                 selecting products to automating orders, they
                 were always available for support. It was a
@@ -39,7 +39,7 @@
             <div className="testi-box">
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti gbrand"><img src="/assets/images/google-one-line-logo.png" alt="" /></div>
-              {/*<h4>Shopify EcomSolution brought my vision</h4>*/}
+              {/*<h4>Shopify Page brought my vision</h4>*/}
               <p>I love that they are willing to change whatever
                 you're unhappy with at no additional cost. Their
                 flexibility and commitment to customer
@@ -63,7 +63,7 @@
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti gbrand"><img src="/assets/images/google-one-line-logo.png" alt="" /></div>
               {/*<h4>Significant growth for my business</h4>*/}
-              <p>Shopify EcomSolution is fantastic! The team was
+              <p>Shopify Page is fantastic! The team was
                 very fast to respond and handled every detail
                 with care. They efficiently set up product
                 selection, automated orders, and integrated
@@ -108,8 +108,8 @@
             <div className="testi-box">
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti"><img src="/assets/images/facebook-one-line-logo.png" alt="" /></div>
-              {/*<h4>Shopify EcomSolution has been a game-changer</h4>*/}
-              <p>The staff of Shopify EcomSolution was very
+              {/*<h4>Shopify Page has been a game-changer</h4>*/}
+              <p>The staff of Shopify Page was very
                 helpful and courteous. They explained the entire
                 process, suggested ideas that fit my business
                 perfectly, and were always available to address
@@ -132,7 +132,7 @@
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti"><img src="/assets/images/facebook-one-line-logo.png" alt="" /></div>
               {/*<h4>Absolutely thrilled with the Shopify store</h4>*/}
-              <p>I just had to thank the awesome team at Shopify EcomSolution. I was struggling with integrating
+              <p>I just had to thank the awesome team at Shopify Page. I was struggling with integrating
                 my store and managing inventory, but they
                 stepped in and handled everything seamlessly.
                 Every problem I've had has been fixed in less
@@ -153,14 +153,14 @@
             <div className="testi-box">
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti gbrand"><img src="/assets/images/google-one-line-logo.png" alt="" /></div>
-              {/*<h4>I highly recommend partnering with Shopify EcomSolution</h4>*/}
+              {/*<h4>I highly recommend partnering with Shopify Page</h4>*/}
               <p>Easy-peasy! I’d been researching reliable
                 services for dropshipping, and honestly, it was
-                so confusing. But the team at Shopify EcomSolution made everything simple. I am very
+                so confusing. But the team at Shopify Page made everything simple. I am very
                 satisfied with the services received and will
                 definitely continue to do business with them in
                 the future. Thank you to the entire team at the
-                Shopify EcomSolution.
+                Shopify Page.
               </p>
               <div className="star-img">
                 <i className="fas fa-star" />

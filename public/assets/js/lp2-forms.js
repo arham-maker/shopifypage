@@ -30,16 +30,14 @@ $(document).ready(function () {
     var pageUrl = window.location.href;
     var urlParams = new URLSearchParams(window.location.search);
 
-    function doSend(ip) {
+    function doSend() {
       var payload = {
         first_name: firstName,
         last_name: lastName,
         email: email,
         phone: phone,
         message: message,
-        consent: true,
-        hidden_ip: ip,
-        hidden_page_url: pageUrl,
+        pageUrl: pageUrl,
         hidden_utm_source: urlParams.get("utm_source") || "",
         hidden_utm_medium: urlParams.get("utm_medium") || "",
         hidden_utm_campaign: urlParams.get("utm_campaign") || "",
@@ -68,32 +66,13 @@ $(document).ready(function () {
         });
     }
 
-    var geoController = new AbortController();
-    var geoTimeout = setTimeout(function () {
-      geoController.abort();
-    }, 5000);
-
-    fetch("https://ipapi.co/json/", { signal: geoController.signal })
-      .then(function (r) {
-        return r.json();
-      })
-      .then(function (geo) {
-        clearTimeout(geoTimeout);
-        doSend(geo.ip || "");
-      })
-      .catch(function () {
-        doSend("");
-      });
+    doSend();
   });
 });
 
 function setButtonURL() {
   if (typeof zE === "function") {
     zE("webWidget", "open");
-    return;
-  }
-  if (typeof $zopim !== "undefined" && $zopim.livechat && $zopim.livechat.window) {
-    $zopim.livechat.window.show();
   }
 }
 

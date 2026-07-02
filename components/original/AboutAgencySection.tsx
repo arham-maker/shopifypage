@@ -1,4 +1,4 @@
-﻿export function AboutAgencySection() {
+export function AboutAgencySection() {
   return (
     <section className="abtSec pt-0">
       <div className="container">
@@ -15,7 +15,7 @@
                   Agency</span> in the USA</h4>
               <p className="para">We’re an award-winning agency that
                 has been recognized by the industry for its
-                outstanding work. Shopify EcomSolution has
+                outstanding work. Shopify Page has
                 received various awards, including making into
                 the
                 Top 10 Best Shopify Development Partner in 2023
@@ -26,7 +26,7 @@
                 is a cloud-based e-commerce platform that allows
                 businesses to create, manage and promote
                 their
-                own online store. Shopify EcomSolution has
+                own online store. Shopify Page has
                 established itself as an expert in building
                 user-friendly, reliable, and secure e-commerce
                 stores, making it easier for merchants to

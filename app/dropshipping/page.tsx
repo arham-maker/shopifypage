@@ -13,7 +13,7 @@ import {
 } from "@/components/original";
 
 export const metadata: Metadata = {
-  title: "Top-Rated Dropshipping Services | Shopify EcomSolution",
+  title: "Top-Rated Dropshipping Services | Shopify Page",
   description:
     "Discover top-rated dropshipping services designed to streamline your eCommerce business. Explore Shopify dropshipping pricing plans and expert solutions.",
 };

@@ -108,14 +108,14 @@ function toComponent(name, chunk) {
     .replace(/href="index\.html"/g, 'href="/"')
     .replace(/href="tel:\+1 \(646\) 396-3260"/g, 'href="tel:+1 (682) 267-0492"')
     .replace(/\+1 \(646\) 396-3260/g, "+1 (682) 267-0492")
-    .replace(/mailto:info@shopifyecomsolution\.com/g, "mailto:support@shopifypage.com")
-    .replace(/info@shopifyecomsolution\.com/g, "support@shopifypage.com")
+    .replace(/mailto:info@Shopify Page\.com/g, "mailto:support@shopifypage.com")
+    .replace(/info@Shopify Page\.com/g, "support@shopifypage.com")
     .replace(
-      /https:\/\/www\.Shopifyecomsolution\.com\/privacy-policy/g,
+      /https:\/\/www\.Shopify Page\.com\/privacy-policy/g,
       "/privacy-policy",
     )
     .replace(
-      /https:\/\/www\.Shopifyecomsolution\.com\/terms-and-conditions/g,
+      /https:\/\/www\.Shopify Page\.com\/terms-and-conditions/g,
       "/terms-and-conditions",
     );
 

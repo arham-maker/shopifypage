@@ -10,9 +10,9 @@ import {
 } from "@/components/original";
 
 export const metadata: Metadata = {
-  title: "About Us | Shopify EcomSolution",
+  title: "About Us | Shopify Page",
   description:
-    "Learn about Shopify EcomSolution, a top-performing Shopify agency helping businesses build conversion-driven stores, scale growth, and achieve e-commerce success since 2015.",
+    "Learn about Shopify Page, a top-performing Shopify agency helping businesses build conversion-driven stores, scale growth, and achieve e-commerce success since 2015.",
 };
 
 export default function AboutPage() {

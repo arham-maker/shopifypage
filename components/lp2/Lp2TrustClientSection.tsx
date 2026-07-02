@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 export function Lp2TrustClientSection() {
   return (
@@ -28,7 +28,7 @@ export function Lp2TrustClientSection() {
                     </div>
                   </div>
                   <div className="trustClientSec-cardBody">
-                    <p>It was nice how they took my feedback seriously. The team at Shopify EcomSolution
+                    <p>It was nice how they took my feedback seriously. The team at Shopify Page
                       made sure my ideas were heard and incorporated into the final design. My store
                       looks amazing, and sales have skyrocketed. Great work!</p>
                   </div>
@@ -73,7 +73,7 @@ export function Lp2TrustClientSection() {
             </p>
           </div>
           <div className="btns_group text-center">
-            {/*  	 	 	 	 <a href="https://Shopify Ecom Solutions.com/crm/web-design/brief.php?type=custom-website-design" class="getstarted ">Get started <i class="fal fa-arrow-circle-right"></i></a>*/}
+            {/*  	 	 	 	 <a href="https://Shopify Page.com/crm/web-design/brief.php?type=custom-website-design" class="getstarted ">Get started <i class="fal fa-arrow-circle-right"></i></a>*/}
             <a href="#" className="getstarted popbtn">Get Started <i className="fal fa-arrow-circle-right" /></a>
             <a href="#" onClick={() => window.setButtonURL?.()} className="chat-btn"><i className="fal fa-comment-alt" />
               Chat Now</a>

@@ -1,4 +1,4 @@
-﻿export function TestimonialsSection() {
+export function TestimonialsSection() {
   return (
     <section className="s11 spad">
       <div className="container-fluid">
@@ -17,9 +17,9 @@
             <div className="testi-box">
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti"><img src="/assets/images/facebook-one-line-logo.png" alt="" /></div>
-              {/*<h4>Shopify EcomSolution was the key to success</h4>*/}
+              {/*<h4>Shopify Page was the key to success</h4>*/}
               <p>Switching to Shopify was a game-changer, and
-                partnering with Shopify EcomSolution was
+                partnering with Shopify Page was
                 instrumental in
                 our success. They delivered customized solutions
                 with extensive features that exceeded my
@@ -41,8 +41,8 @@
             <div className="testi-box">
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti gbrand"><img src="/assets/images/google-one-line-logo.png" alt="" /></div>
-              {/*<h4>Shopify EcomSolution brought my vision</h4>*/}
-              <p>Shopify EcomSolution expertly transformed my
+              {/*<h4>Shopify Page brought my vision</h4>*/}
+              <p>Shopify Page expertly transformed my
                 vision into a thriving Shopify store. What
                 impressed me
                 most was their ability to deliver exceptional
@@ -66,7 +66,7 @@
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti gbrand"><img src="/assets/images/google-one-line-logo.png" alt="" /></div>
               {/*<h4>Significant growth for my business</h4>*/}
-              <p>Working with Shopify EcomSolution has been a
+              <p>Working with Shopify Page has been a
                 revelation! Their all-encompassing marketing
                 solutions have
                 enabled me to effectively reach and retain a
@@ -88,7 +88,7 @@
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti gbrand"><img src="/assets/images/google-one-line-logo.png" alt="" /></div>
               {/*<h4>I'm absolutely thrilled with the results</h4>*/}
-              <p>Since teaming up with Shopify EcomSolution,
+              <p>Since teaming up with Shopify Page,
                 we've seen a significant boost in sales and a
                 substantial
                 decrease in cart abandonment rates, all thanks
@@ -108,8 +108,8 @@
             <div className="testi-box">
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti"><img src="/assets/images/facebook-one-line-logo.png" alt="" /></div>
-              {/*<h4>Shopify EcomSolution has been a game-changer</h4>*/}
-              <p>Partnering with Shopify EcomSolution has been a
+              {/*<h4>Shopify Page has been a game-changer</h4>*/}
+              <p>Partnering with Shopify Page has been a
                 game-changer for my business. With their
                 expertise, I've
                 been able to create a thriving Shopify store
@@ -132,7 +132,7 @@
               <div className="brandlogotesti"><img src="/assets/images/facebook-one-line-logo.png" alt="" /></div>
               {/*<h4>Absolutely thrilled with the Shopify store</h4>*/}
               <p>We're absolutely thrilled with the Shopify store
-                that Shopify EcomSolution has created for us.
+                that Shopify Page has created for us.
                 Their
                 talented team of experts has truly exceeded our
                 expectations, and we're confident that they'll
@@ -152,9 +152,9 @@
             <div className="testi-box">
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti gbrand"><img src="/assets/images/google-one-line-logo.png" alt="" /></div>
-              {/*<h4>I highly recommend partnering with Shopify EcomSolution</h4>*/}
+              {/*<h4>I highly recommend partnering with Shopify Page</h4>*/}
               <p>If you're considering building a Shopify store, I
-                highly recommend partnering with Shopify EcomSolution.
+                highly recommend partnering with Shopify Page.
                 They've transformed my online store into a
                 stunning and effective sales machine, and I've
                 seen a
@@ -176,7 +176,7 @@
               <div className="qouteico"><i className="fas fa-quote-left" /></div>
               <div className="brandlogotesti gbrand"><img src="/assets/images/google-one-line-logo.png" alt="" /></div>
               {/*<h4>Truly impressive</h4>*/}
-              <p>I'm grateful to Shopify EcomSolution for their
+              <p>I'm grateful to Shopify Page for their
                 exceptional services. Their responsive and
                 attentive team
                 took the time to understand our vision,
@@ -210,7 +210,7 @@
         {/*    <div class="col-md-3">*/}
         {/*        <div class="testi-box">*/}
         {/*            <h4>Fast and reliable!</h4>*/}
-        {/*            <p>I wanted to switch to Shopify and choosing Shopify EcomSolution was the best decision. Our platform is*/}
+        {/*            <p>I wanted to switch to Shopify and choosing Shopify Page was the best decision. Our platform is*/}
         {/*                user-friendly, personalized, and packed with various*/}
         {/*                features. Highly recommended!</p>*/}
         {/*            <h6>Sam Denver</h6>*/}
@@ -220,7 +220,7 @@
         {/*    <div class="col-md-3">*/}
         {/*        <div class="testi-box">*/}
         {/*            <h4>10 points for them!</h4>*/}
-        {/*            <p>Thanks to Shopify EcomSolution, I've been able to turn*/}
+        {/*            <p>Thanks to Shopify Page, I've been able to turn*/}
         {/*                my vision into a Shopify store. What really impressed*/}
         {/*                me is their affordable plans and the quality they've*/}
         {/*                delivered in that range.</p>*/}
@@ -231,7 +231,7 @@
         {/*    <div class="col-md-3">*/}
         {/*        <div class="testi-box">*/}
         {/*            <h4>Highly recommended.</h4>*/}
-        {/*            <p>Shopify EcomSolution has been a game-changer!*/}
+        {/*            <p>Shopify Page has been a game-changer!*/}
         {/*                Their comprehensive suite of marketing tools has*/}
         {/*                helped me attract and retain wide customers.*/}
         {/*                Impressive services, indeed!</p>*/}
@@ -242,7 +242,7 @@
         {/*    <div class="col-md-3">*/}
         {/*        <div class="testi-box">*/}
         {/*            <h4>Best Shopify Agency!</h4>*/}
-        {/*            <p>Since partnering with Shopify EcomSolution, Shopify’s*/}
+        {/*            <p>Since partnering with Shopify Page, Shopify’s*/}
         {/*                seamless checkout process has improved our sales and*/}
         {/*                has reduced cart abandonment rates. I couldn't be*/}
         {/*                happier!</p>*/}
@@ -253,7 +253,7 @@
         {/*    <div class="col-md-3">*/}
         {/*        <div class="testi-box">*/}
         {/*            <h4>Appreciate their work.</h4>*/}
-        {/*            <p>With Shopify EcomSolution, I've been able to run a*/}
+        {/*            <p>With Shopify Page, I've been able to run a*/}
         {/*                successful Shopify store. The functionality has made it*/}
         {/*                easy to manage all my sales channels from one*/}
         {/*                centralized dashboard.</p>*/}
@@ -265,7 +265,7 @@
         {/*        <div class="testi-box">*/}
         {/*            <h4>Great team to work with.</h4>*/}
         {/*            <p>I'm blown away by the Shopify store that has been*/}
-        {/*                delivered to us. Shopify EcomSolution has an*/}
+        {/*                delivered to us. Shopify Page has an*/}
         {/*                incredible team of experts that won't disappoint you for*/}
         {/*                sure.</p>*/}
         {/*            <h6>Kate Oscar</h6>*/}
@@ -276,7 +276,7 @@
         {/*        <div class="testi-box">*/}
         {/*            <h4>The best agency!</h4>*/}
         {/*            <p>If you're planning to build a Shopify store, look no*/}
-        {/*                further than Shopify EcomSolution. My online store*/}
+        {/*                further than Shopify Page. My online store*/}
         {/*                looks amazing, and I can notice an increase in sales in a*/}
         {/*                span of a few months.</p>*/}
         {/*            <h6>Benjamin Clark</h6>*/}
@@ -286,7 +286,7 @@
         {/*    <div class="col-md-3">*/}
         {/*        <div class="testi-box">*/}
         {/*            <h4>Truly commendable!</h4>*/}
-        {/*            <p>Hats off to Shopify EcomSolution for their outstanding*/}
+        {/*            <p>Hats off to Shopify Page for their outstanding*/}
         {/*                Shopify services. Their team was responsive throughout*/}
         {/*                the process and ensured it perfectly encapsulated the*/}
         {/*                vision.</p>*/}

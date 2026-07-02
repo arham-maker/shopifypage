@@ -1,4 +1,4 @@
-﻿export function Lp2UserBelowSection() {
+export function Lp2UserBelowSection() {
   return (
     <section className="userBelowSec" style={{backgroundImage: 'url(/assets/images/banner6.html)'}}>
       <div className="container">
@@ -80,7 +80,7 @@
                   </div>
                   <div className="card-Body">
                     <div className="bodyText">
-                      <p>The new homepage designed by the team of Shopify EcomSolution is a
+                      <p>The new homepage designed by the team of Shopify Page is a
                         game-changer!
                         It's clean, easy to navigate, and showcases our products perfectly. Our
                         customers love it!</p>

@@ -1,4 +1,4 @@
-﻿export function ServicesHeroBanner() {
+export function ServicesHeroBanner() {
   return (
     <div className="mainBanner spad innerBanner">
       <div className="container-fluid">
@@ -9,7 +9,7 @@
               <h1>We're Your Shopify Partner: Find Out the <br />
                 Best Solution for Your Shopify Store.</h1>
               <p>Struggling with building your online store?
-                Shopify EcomSolution specializes in delivering
+                Shopify Page specializes in delivering
                 the all-inclusive Shopify solutions that offers
                 scalability, performance and flexibility
                 needed to manage stores in different languages,

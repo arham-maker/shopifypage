@@ -1,4 +1,4 @@
-﻿export function PrivacyPageSection() {
+export function PrivacyPageSection() {
   return (
     <section>
       <div className="container">
@@ -10,12 +10,12 @@
                   <h4>Privacy Policy Statement</h4>
                   <p>
                     We highly value your personal data at
-                    Shopify EcomSolution. Our Privacy
+                    Shopify Page. Our Privacy
                     Policy is
                     designed to provide clear and
                     transparent information about the data
                     we collect when
-                    you visit Shopifyecomsolution.com or
+                    you visit shopifypage.com or
                     communicate with us through various
                     channels
                     such as
@@ -36,7 +36,7 @@
                 <li>
                   <h4>What Information Do We Collect?</h4>
                   <p>
-                    At Shopify EcomSolution, we collect the
+                    At Shopify Page, we collect the
                     information you explicitly and
                     voluntarily
                     provide through our contact forms and
@@ -54,10 +54,10 @@
                     collected during phone or email
                     conversations with our official
                     representatives at
-                    Shopify EcomSolution.
+                    Shopify Page.
                   </p>
                   <p>
-                    Furthermore, Shopify EcomSolution may
+                    Furthermore, Shopify Page may
                     gather information concerning third
                     parties
                     directly relevant to you, your project,
@@ -68,7 +68,7 @@
                   <h4>How Do We Use The Information We
                     Collect?</h4>
                   <p>
-                    At Shopify EcomSolution, the
+                    At Shopify Page, the
                     information we collect is utilized to
                     deliver digital
                     services tailored to your needs. Some
@@ -104,11 +104,11 @@
                     services.
                   </p>
                   <p>
-                    It's important to note that Shopify EcomSolution does not share information with
+                    It's important to note that Shopify Page does not share information with
                     external parties unless it is essential
                     to fulfill the services you have
                     requested.
-                    However, Shopify EcomSolution reserves
+                    However, Shopify Page reserves
                     the right to disclose relevant
                     information
                     following official judicial practices,
@@ -120,10 +120,10 @@
                 <li>
                   <h4>Third-Party Websites</h4>
                   <p>
-                    Shopify EcomSolution' website may
+                    Shopify Page' website may
                     contain links to third-party websites.
                     Please be
-                    aware that Shopify EcomSolution has no
+                    aware that Shopify Page has no
                     control over these websites' content or
                     privacy practices, as they operate
                     independently with their own distinct
@@ -131,13 +131,13 @@
                     policies.
                   </p>
                   <p>
-                    As a result, Shopify EcomSolution
+                    As a result, Shopify Page
                     cannot assume any responsibility or
                     liability
                     for
                     these third-party websites' activities,
                     content, or policies. Additionally,
-                    including these links on Shopify EcomSolution' website does not imply
+                    including these links on Shopify Page' website does not imply
                     endorsement
                     of the information or products on these
                     external sites.
@@ -145,7 +145,7 @@
                   <p>
                     Should you choose to access any
                     third-party websites linked to
-                    Shopify EcomSolution' website, please
+                    Shopify Page' website, please
                     note that you do so at your own
                     discretion
                     and risk. We encourage you to review the
@@ -156,10 +156,10 @@
                   </p>
                 </li>
                 <li>
-                  <h4>Shopify EcomSolution Is Committed to
+                  <h4>Shopify Page Is Committed to
                     Data Security</h4>
                   <p>
-                    At Shopify EcomSolution, we prioritize
+                    At Shopify Page, we prioritize
                     the security of your data. We have
                     implemented comprehensive practices to
                     ensure the proper use, accuracy, and
@@ -185,12 +185,12 @@
                   </p>
                 </li>
                 <li>
-                  <h4>Shopify EcomSolution Is Committed to
+                  <h4>Shopify Page Is Committed to
                     Protecting Children's Privacy
                     Online</h4>
                   <p>
                     We take children's privacy seriously at
-                    Shopify EcomSolution. As such, we do
+                    Shopify Page. As such, we do
                     not
                     knowingly collect or maintain
                     information on our website from
@@ -205,13 +205,13 @@
                     individual under 18 has provided
                     personal
                     information through our website. In that
-                    case, Shopify EcomSolution will
+                    case, Shopify Page will
                     promptly
                     delete that information and refrain from
                     using it for any purpose.
                   </p>
                   <p>
-                    Shopify EcomSolution encourages parents
+                    Shopify Page encourages parents
                     and legal guardians to discuss openly
                     with
                     their children about the potential risks
@@ -222,7 +222,7 @@
                   <h4>Our Privacy Policy and Your Consent</h4>
                   <p>
                     By using our website, you consent to
-                    Shopify EcomSolution' Privacy Policy.
+                    Shopify Page' Privacy Policy.
                   </p>
                   <p>
                     Any updates or modifications to our
@@ -234,7 +234,7 @@
                 <li>
                   <h4>Your Privacy Choices and Rights</h4>
                   <p>
-                    At Shopify EcomSolution, you can
+                    At Shopify Page, you can
                     navigate our website and access its
                     features
                     without needing personal information.

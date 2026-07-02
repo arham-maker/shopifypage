@@ -6,9 +6,9 @@ import {
 } from "@/components/original";
 
 export const metadata: Metadata = {
-  title: "Pricing | Shopify EcomSolution",
+  title: "Pricing | Shopify Page",
   description:
-    "Explore Shopify EcomSolution pricing plans for Shopify websites, social media marketing, and search engine marketing.",
+    "Explore Shopify Page pricing plans for Shopify websites, social media marketing, and search engine marketing.",
 };
 
 export default function PricingPage() {

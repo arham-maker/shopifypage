@@ -1,8 +1,10 @@
-﻿export function RefundsPageSection() {
+import { SITE_PHONE, SITE_PHONE_HREF } from "@/lib/site-contact";
+
+export function RefundsPageSection() {
   return (
     <section className="refundpage">
       <div className="container">
-        <p className="pb-5">Refund Deparment Number: <a href="tel:+1 (682) 267-0492" style={{color: '#3dca70'}}>+1 (682) 267-0492</a></p>
+        <p className="pb-5">Refund Deparment Number: <a href={SITE_PHONE_HREF} style={{color: '#3dca70'}}>{SITE_PHONE}</a></p>
         <div className="row">
           <div className="col-lg-12">
             <div className="greenbox">Steps To File A Refund
@@ -24,13 +26,13 @@
                 about the
                 refund status.</li>
             </ol>
-            <p><strong>Note:</strong> Shopify EcomSolution holds
+            <p><strong>Note:</strong> Shopify Page holds
               all rights to reject any project or cancel the
               contract
               whenever it deems necessary. After the refund, you
               will not have any rights to use the designs
               for any purpose; they will be the sole property of
-              Shopify EcomSolution. The company will be the
+              Shopify Page. The company will be the
               rightful owner of the designs.</p>
           </div>
           <div className="col-lg-5">

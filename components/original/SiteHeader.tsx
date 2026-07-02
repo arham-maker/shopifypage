@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { usePathname } from "next/navigation";
 
@@ -27,7 +27,7 @@ export function SiteHeader() {
             <div className="col-md-3">
               <a href="/" className="logo">
                 <img src="/assets/images/logo-white.png" width={150} alt="" />
-                {/*<h2 class="text-white">Shopify EcomSolution</h2>*/}
+                {/*<h2 class="text-white">Shopify Page</h2>*/}
               </a>
             </div>
             <div className="col-md-9 text-end">

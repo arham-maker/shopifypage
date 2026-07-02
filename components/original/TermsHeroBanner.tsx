@@ -1,4 +1,4 @@
-﻿export function TermsHeroBanner() {
+export function TermsHeroBanner() {
   return (
     <div className="mainBanner spad innerBanner">
       <div className="container-fluid">
@@ -8,7 +8,7 @@
               <img src="/assets/images/banner/2.png" className="img-fluid" alt="" />
               <h1>Terms And Conditions.</h1>
               <p>These guidelines outline using the materials and
-                data on the Shopify EcomSolution website.
+                data on the Shopify Page website.
                 They cover what you can do with the content, who
                 can access it, and the limitations of our
                 liability.

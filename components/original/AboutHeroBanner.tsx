@@ -1,4 +1,4 @@
-﻿export function AboutHeroBanner() {
+export function AboutHeroBanner() {
   return (
     <div className="mainBanner spad innerBanner">
       <div className="container-fluid">
@@ -6,7 +6,7 @@
           <div className="col-md-9 text-center">
             <div className="banner-content">
               {/*<img src="/assets/images/banner/2.png" class="img-fluid" alt="">*/}
-              <h1>Shopify EcomSolution is a top-performing
+              <h1>Shopify Page is a top-performing
                 Shopify agency that offers robust and
                 conversion-driven store for all business owners.
                 We’re founders just like you with the aim

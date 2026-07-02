@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 export function Lp2ProcessSection() {
   return (
@@ -53,7 +53,7 @@ export function Lp2ProcessSection() {
           </li>
         </ul>
         <div className="btns_group text-center">
-          {/*  				<a href="https://Shopify Ecom Solutions.com/crm/web-design/brief.php?type=custom-website-design" class="getstarted ">Get started <i class="fal fa-arrow-circle-right"></i></a>*/}
+          {/*  				<a href="https://Shopify Page.com/crm/web-design/brief.php?type=custom-website-design" class="getstarted ">Get started <i class="fal fa-arrow-circle-right"></i></a>*/}
           <a href="#" className="getstarted popbtn">Let's Get Started <i className="fal fa-arrow-circle-right" /></a>
           <a href="#" onClick={() => window.setButtonURL?.()} className="chat-btn"><i className="fal fa-comment-alt" />
             Chat Now </a>

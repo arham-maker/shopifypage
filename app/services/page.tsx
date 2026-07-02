@@ -9,9 +9,9 @@ import {
 } from "@/components/original";
 
 export const metadata: Metadata = {
-  title: "Shopify Services | Shopify EcomSolution",
+  title: "Shopify Services | Shopify Page",
   description:
-    "Shopify EcomSolution delivers all-inclusive Shopify services including store design, e-commerce marketing, and done-for-you solutions to help your business scale across languages, currencies, and locations.",
+    "Shopify Page delivers all-inclusive Shopify services including store design, e-commerce marketing, and done-for-you solutions to help your business scale across languages, currencies, and locations.",
 };
 
 export default function ServicesPage() {

@@ -1,4 +1,4 @@
-﻿export function AboutOriginSection() {
+export function AboutOriginSection() {
   return (
     <section className="shopBlueSec blueBoxSec pt-0">
       <div className="container">
@@ -8,13 +8,13 @@
               <div className="blueBox redBox">
                 <div className="row">
                   <div className="col-md-7">
-                    <h2><span>How Shopify EcomSolution Came
+                    <h2><span>How Shopify Page Came
                         into Existence</span></h2>
                     <p>It all started with a simple vision:
                       to help businesses sell their
                       products
                       online. Since
-                      2015, Shopify EcomSolution has been
+                      2015, Shopify Page has been
                       been delivering a comprehensive
                       range of
                       Shopify
@@ -25,7 +25,7 @@
                       with various industries, whether
                       it’s startups, small, medium or
                       enterprise-level
-                      businesses. Shopify EcomSolution
+                      businesses. Shopify Page
                       has a record of building 1000+
                       Shopify stores
                       and

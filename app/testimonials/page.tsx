@@ -6,9 +6,9 @@ import {
 } from "@/components/original";
 
 export const metadata: Metadata = {
-  title: "Testimonials | Shopify EcomSolution",
+  title: "Testimonials | Shopify Page",
   description:
-    "Read Shopify EcomSolution client testimonials and reviews from e-commerce brands, Shopify store owners, and marketing clients.",
+    "Read Shopify Page client testimonials and reviews from e-commerce brands, Shopify store owners, and marketing clients.",
 };
 
 export default function TestimonialsPage() {

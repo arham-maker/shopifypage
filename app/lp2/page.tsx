@@ -23,7 +23,7 @@ import {
 } from "@/components/lp2";
 
 export const metadata: Metadata = {
-  title: "Expert Shopify Store Development Services - Shopify EcomSolution",
+  title: "Expert Shopify Store Development Services - Shopify Page",
   description:
     "Boost your online presence with our professional Shopify store design and development services. Get started today!",
 };

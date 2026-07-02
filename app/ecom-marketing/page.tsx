@@ -10,7 +10,7 @@ import {
 } from "@/components/original";
 
 export const metadata: Metadata = {
-  title: "E-Commerce Marketing | Shopify EcomSolution",
+  title: "E-Commerce Marketing | Shopify Page",
   description:
     "Grow your online business with proven e-commerce marketing strategies including SEO, PPC, social media advertising, and email marketing for Shopify.",
 };

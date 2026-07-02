@@ -1,4 +1,6 @@
-﻿"use client";
+"use client";
+
+import { SITE_EMAIL, SITE_PHONE, SITE_PHONE_HREF } from "@/lib/site-contact";
 
 export function TermsPageSection() {
   return (
@@ -12,7 +14,7 @@ export function TermsPageSection() {
                   <h4>LEGAL CONTRACT BINDING</h4>
                   <p>
                     When a client purchases a service from
-                    Shopify EcomSolution, they agree to the
+                    Shopify Page, they agree to the
                     Legal Contract Binding, which includes
                     handling responses to legal notices
                     related to Trademark Services, Patents,
@@ -25,7 +27,7 @@ export function TermsPageSection() {
                     any legal liabilities tied to the
                     infringing business name. If the
                     customer fails to provide the
-                    cancellation documentation, Shopify EcomSolution will not be held liable and
+                    cancellation documentation, Shopify Page will not be held liable and
                     assumes no responsibility for any legal
                     damages incurred by the business owner
                     due to the infringement issue.
@@ -56,7 +58,7 @@ export function TermsPageSection() {
                 <li>
                   <h4>REFUND POLICY</h4>
                   <p>
-                    Shopify EcomSolution' refund policy
+                    Shopify Page' refund policy
                     will be nil if;
                   </p>
                   <ul className="list-ul">
@@ -125,13 +127,13 @@ export function TermsPageSection() {
                       final delivery of files following
                       client approval.</li>
                   </ul>
-                  <p>Note: Shopify EcomSolution holds all
+                  <p>Note: Shopify Page holds all
                     rights to reject any project or cancel
                     the contract whenever it deems
                     necessary. After the refund, you will
                     not have any rights to use the designs
                     for any purpose; they will be the sole
-                    property of Shopify EcomSolution. The
+                    property of Shopify Page. The
                     company will be the rightful owner of
                     the designs.</p>
                 </li>
@@ -143,11 +145,10 @@ export function TermsPageSection() {
                     steps: <br />You can claim your refund by:
                   </p>
                   <ul className="list-ul">
-                    <li>Dialing our Toll Free Number # <a href="tel:+1 (682) 267-0492">+1
-                        (682) 267-0492</a></li>
+                    <li>Dialing our Toll Free Number # <a href={SITE_PHONE_HREF}>{SITE_PHONE}</a></li>
                     <li>Live Chat. <a href="#" onClick={() => (window as Window & { setButtonURL?: () => void }).setButtonURL?.()}>Click
                         here to start chat now</a></li>
-                    <li>Sending us an <a href="mailto:support@shopifypage.com">Email</a>.</li>
+                    <li>Sending us an <a href={`mailto:${SITE_EMAIL}`}>Email</a>.</li>
                   </ul>
                   <p>As soon as we receive your refund
                     request, we will respond to it at our
@@ -156,7 +157,7 @@ export function TermsPageSection() {
                     process.</p>
                   <p>After you have received your refund, you
                     will not have any rights to any designs
-                    submitted by Shopify EcomSolution, the
+                    submitted by Shopify Page, the
                     information will be submitted the
                     Copyright Acquisition of the Government
                     Copyright Agencies to maintain
@@ -205,7 +206,7 @@ export function TermsPageSection() {
                 </li>
                 <li>
                   <h4>RECORD MAINTENANCE</h4>
-                  <p>Shopify EcomSolution keeps the records
+                  <p>Shopify Page keeps the records
                     of finalized designs so that in case of
                     any misplaced order, you will be
                     provided the exact file. However, files
@@ -222,20 +223,20 @@ export function TermsPageSection() {
                 <li>
                   <h4>COMMUNICATION POLICY</h4>
                   <ul className="list-ul">
-                    <li>YOU agree that Shopify EcomSolution
+                    <li>YOU agree that Shopify Page
                       is not liable for any correspondence
                       from email address (es) other than
                       the ones followed by our own domain
-                      i.e. "support@shopifypage.com" or/and
+                      i.e. "{SITE_EMAIL}" or/and
                       any toll free number that is not
-                      mentioned on our website. Shopify EcomSolution should not be held
+                      mentioned on our website. Shopify Page should not be held
                       responsible for any damage(s) caused
                       by such correspondence. We only take
                       responsibility of any communication
                       through email address (es) under our
                       own domain name or/and via toll free
                       number i.e. already mentioned on
-                      Shopify EcomSolution' website.</li>
+                      Shopify Page' website.</li>
                     <li>We are not responsible for any
                       damages caused due to other contact
                       details not provided by us.</li>

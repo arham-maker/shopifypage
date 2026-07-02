@@ -1,4 +1,6 @@
-﻿export function SiteFooter() {
+import { SITE_EMAIL, SITE_PHONE, SITE_PHONE_HREF } from "@/lib/site-contact";
+
+export function SiteFooter() {
   return (
     <footer className="spad">
       <div className="container-fluid">
@@ -6,9 +8,9 @@
           <div className="col-md-3">
             <a href="/" className="flogo">
               <img style={{maxWidth: 200}} src="/assets/images/logo-white.png" alt="" />
-              {/*<h2 class="text-white">Shopify EcomSolution</h2>*/}
+              {/*<h2 class="text-white">Shopify Page</h2>*/}
             </a>
-            <p className="ft-para">Shopify EcomSolution is the leading
+            <p className="ft-para">Shopify Page is the leading
               Shopify agency that covers various
               solutions to help you grow your online
               business to success.</p>
@@ -45,9 +47,9 @@
             <div className="widget">
               <h6>Contact Information</h6>
               <div className="ft-info">
-                <a href="tel:+1 (682) 267-0492"><i className="fas fa-phone" /> +1 (682) 267-0492</a>
-                <a href="mailto:support@shopifypage.com"><i className="fas fa-envelope" />
-                  support@shopifypage.com</a>
+                <a href={SITE_PHONE_HREF}><i className="fas fa-phone" /> {SITE_PHONE}</a>
+                <a href={`mailto:${SITE_EMAIL}`}><i className="fas fa-envelope" />
+                  {SITE_EMAIL}</a>
                 {/*<p><i class="fas fa-map-marker-alt"></i>650 California St, San Francisco, CA</p>*/}
               </div>
               {/* <h6>Follow Us</h6>
@@ -67,7 +69,7 @@
         <div className="copyright">
           <div className="row">
             <div className="col-md-6">
-              <p>© Shopify EcomSolution 2026. All rights
+              <p>© Shopify Page 2026. All rights
                 reserved.</p>
             </div>
             <div className="col-md-6">
@@ -81,7 +83,7 @@
               </ul>
             </div>
           </div>
-          <p className="distxt">Shopifyecomsolution independent company
+          <p className="distxt">Shopify Page is an independent company
             that provides design and development services for
             e-commerce solutions. We are not affiliated, associated,
             authorized, endorsed by, or in any way officially

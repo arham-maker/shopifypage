@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Thank You | Shopify EcomSolution",
-  description: "Thank you for contacting Shopify EcomSolution.",
+  title: "Thank You | Shopify Page",
+  description: "Thank you for contacting Shopify Page.",
 };
 
 export default function ThankYouPage() {

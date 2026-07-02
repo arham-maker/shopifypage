@@ -1,4 +1,4 @@
-﻿export function Lp2WhyChooseSection() {
+export function Lp2WhyChooseSection() {
   return (
     <section className="whychooseSec">
       <div className="container">
@@ -6,7 +6,7 @@
           <h4><span>WHY CHOOSE US </span> For your Shopify store design </h4>
         </div>
         <div className="para text-center">
-          <p>At Shopify EcomSolution, we've got a top-notch team of award-winning designers with extensive
+          <p>At Shopify Page, we've got a top-notch team of award-winning designers with extensive
             experience
             and skills ready to handle your Shopify project.
           </p>
@@ -47,7 +47,7 @@
                     <img src="/assets/images/c1.html" alt="" className="c1" />
                     <img src="/assets/images/s1.webp" alt="" />
                     <h5>Customized Shopify stores</h5>
-                    <p>At Shopify EcomSolution, we craft captivating, personalized designs that not only
+                    <p>At Shopify Page, we craft captivating, personalized designs that not only
                       look stunning but also strengthen your brand identity.</p>
                   </div>
                 </div>

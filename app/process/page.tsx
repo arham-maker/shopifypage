@@ -9,9 +9,9 @@ import {
 } from "@/components/original";
 
 export const metadata: Metadata = {
-  title: "Process | Shopify EcomSolution",
+  title: "Process | Shopify Page",
   description:
-    "Learn how Shopify EcomSolution builds high-converting Shopify stores through planning, design, development, launch, and ongoing support.",
+    "Learn how Shopify Page builds high-converting Shopify stores through planning, design, development, launch, and ongoing support.",
 };
 
 export default function ProcessPage() {
