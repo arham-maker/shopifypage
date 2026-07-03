@@ -3,6 +3,7 @@ export { Lp2HeroBanner } from "./Lp2HeroBanner";
 export { Lp2TrustedSection } from "./Lp2TrustedSection";
 export { Lp2CounterSection } from "./Lp2CounterSection";
 export { Lp2WebDesignSection } from "./Lp2WebDesignSection";
+export { Lp2PortfolioPreview } from "./Lp2PortfolioPreview";
 export { Lp2ProcessSection } from "./Lp2ProcessSection";
 export { Lp2PackagesSection } from "./Lp2PackagesSection";
 export { Lp2GuaranteeSection } from "./Lp2GuaranteeSection";
