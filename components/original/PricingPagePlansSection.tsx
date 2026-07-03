@@ -44,7 +44,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/ecommerce/beginner" title="">View Details</a>
+                    <a href="/packages/ecommerce/beginner" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -78,7 +78,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/ecommerce/growth" title="">View Details</a>
+                    <a href="/packages/ecommerce/growth" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -112,7 +112,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/ecommerce/levelup" title="">View Details</a>
+                    <a href="/packages/ecommerce/levelup" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -146,7 +146,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/ecommerce/professional" title="">View Details</a>
+                    <a href="/packages/ecommerce/professional" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -185,7 +185,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/ecommerce/executive" title="">View Details</a>
+                    <a href="/packages/ecommerce/executive" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -236,7 +236,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/ecommerce/toptier" title="">View Details</a>
+                    <a href="/packages/ecommerce/toptier" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -289,7 +289,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/smm/startup" title="">View Details</a>
+                    <a href="/packages/smm/startup" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -351,7 +351,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/smm/sme" title="">View Details</a>
+                    <a href="/packages/smm/sme" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -425,7 +425,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/smm/professional" title="">View Details</a>
+                    <a href="/packages/smm/professional" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -473,7 +473,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/sem/essential-sem" title="">View Details</a>
+                    <a href="/packages/sem/essential-sem" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -520,7 +520,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/sem/growth-sem" title="">View Details</a>
+                    <a href="/packages/sem/growth-sem" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -572,7 +572,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/sem/scale-dominate-sem" title="">View Details</a>
+                    <a href="/packages/sem/scale-dominate-sem" title="">View Details</a>
                   </div>
                 </div>
               </div>

@@ -1495,28 +1495,47 @@ footer .ft-pad {
 }
 
 .checkbox-wrap2 {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
   margin-bottom: 12px;
   text-align: left;
 }
 
-.checkbox-wrap2 input[type=checkbox],
-.pop-inner .checkbox-wrap2 input[type=checkbox],
-.pop-inner1 .checkbox-wrap2 input[type=checkbox],
-.contact-form .checkbox-wrap2 input[type=checkbox] {
-  flex: 0 0 auto;
-  width: auto;
-  margin: 4px 0 0;
-  padding: 0;
+.checkbox-wrap2:has(> input[type="checkbox"]) {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
 }
 
-.checkbox-wrap2 label {
+.checkbox-wrap2:has(> input[type="checkbox"]) label {
+  display: block;
   flex: 1;
+}
+
+.checkbox-wrap2 label,
+.checkbox-wrap label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
   line-height: 1.35;
   margin: 0;
   text-align: left;
+  cursor: pointer;
+}
+
+.checkbox-wrap2 input[type=checkbox],
+.checkbox-wrap input[type=checkbox],
+.pop-inner .checkbox-wrap2 input[type=checkbox],
+.pop-inner1 .checkbox-wrap2 input[type=checkbox],
+.contact-form .checkbox-wrap2 input[type=checkbox],
+.contact-form .checkbox-wrap input[type=checkbox] {
+  flex: 0 0 auto;
+  width: auto;
+  min-width: 16px;
+  margin: 3px 0 0;
+  padding: 0;
+}
+
+.checkbox-wrap2 label a {
+  color: #59dfab;
 }
 
 .pop-inner .sbt, .pop-inner1 .sbt {
@@ -2291,11 +2310,27 @@ table.comapare-box td {
     font-weight: 600;
 }
 
+.darkSec .row {
+  align-items: stretch;
+}
+
+.darkSec .row > [class*="col-"] {
+  display: flex;
+}
+
+.darkSec .store-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
 .darkSec .store-box h4 {font-weight: 400;}
 
 .darkSec .store-box .btnSec {
-    justify-content: center;
-    margin: 2rem 0 0;
+  margin-top: auto;
+  padding-top: 2rem;
+  justify-content: center;
 }
 .test h1 {
   font-weight: 400;
@@ -2648,6 +2683,15 @@ ul.menu li a{
 }
 
 .checkbox-wrap label {
+  font-size: 14px;
+  color: #fff;
+}
+
+.checkbox-wrap label a {
+  color: #59dfab;
+}
+
+.contact-form .checkbox-wrap2 label {
   font-size: 14px;
   color: #fff;
 }

@@ -46,7 +46,7 @@ export function SiteHeader() {
                       {/* <li><a href="how-its-work.php">How Its Works</a></li> */}
                     </ul>
                   </li>
-                  <li className={getItemClassName(route === "dropshipping")}><a href="dropshipping">Dropshipping</a></li>
+                  <li className={getItemClassName(route === "dropshipping")}><a href="/dropshipping">Dropshipping</a></li>
                   <li className={getItemClassName(route === "about")}><a href="about">About Us</a></li>
                   <li className={getItemClassName(route === "portfolio")}><a href="portfolio">Portfolio</a></li>
                   <li className={getItemClassName(route === "process")}><a href="process">Process</a></li>

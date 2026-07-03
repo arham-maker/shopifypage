@@ -40,7 +40,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/dropshipping/starter" title="">View Details</a>
+                    <a href="/packages/dropshipping/starter" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -78,7 +78,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/dropshipping/growth" title="">View Details</a>
+                    <a href="/packages/dropshipping/growth" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -126,7 +126,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/dropshipping/pro-brand" title="">View Details</a>
+                    <a href="/packages/dropshipping/pro-brand" title="">View Details</a>
                   </div>
                 </div>
               </div>
@@ -184,7 +184,7 @@
                       Chat Now</a>
                   </div>
                   <div className="text-center detanchor">
-                    <a href="packages/dropshipping/empire" title="">View Details</a>
+                    <a href="/packages/dropshipping/empire" title="">View Details</a>
                   </div>
                 </div>
               </div>

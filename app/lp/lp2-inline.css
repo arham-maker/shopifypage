@@ -20,9 +20,9 @@
 
 .lp2-page header .logo img {
   display: block;
-  max-width: 176px !important;
-  width: 176px;
-  height: 28px;
+  max-width: 220px !important;
+  width: 220px;
+  height: 60px;
   object-fit: contain;
 }
 
@@ -57,9 +57,9 @@
   }
 
   .lp2-page header .logo img {
-    max-width: 176px !important;
-    width: 176px;
-    height: 28px;
+    max-width: 220px !important;
+    width: 220px;
+    height: 60px;
   }
 
   .lp2-page header ul.phnchat {

@@ -98,21 +98,17 @@
                     <label htmlFor="chck9">
                       <input type="checkbox" name="service[]" id="chck9" defaultValue="Other" /> Other
                     </label>
-                  </div>
-                </div>
-                <div className="col-md-12 flex-col ">
-                  <div className="checkbox-wrap2 pb-2">
-                    <input type="checkbox" id="check2" required name="check2" />
-                    <label style={{ color: 'white' }} htmlFor="check2"> Message and data rates
-                      may apply. Reply STOP to opt-out,
-                      Text Help for help. 4
-                      messages/month.</label>
-                  </div>
-                  <div className="checkbox-wrap2">
-                    <input type="checkbox" id="check3" required name="check3" />
-                    <label style={{ color: 'white' }} htmlFor="check3"> I Agree and accepts <a target="_blank" href="terms-and-conditions">Terms
-                      Conditions</a> and <a target="_blank" href="privacy-policy">Privacy
-                        Policy</a></label>
+                    <label htmlFor="check2">
+                      <input type="checkbox" id="check2" required name="check2" />
+                      Message and data rates may apply. Reply STOP to opt-out,
+                      Text Help for help. 4 messages/month.
+                    </label>
+                    <label htmlFor="check3">
+                      <input type="checkbox" id="check3" required name="check3" />
+                      I Agree and accept{" "}
+                      <a target="_blank" href="terms-and-conditions">Terms Conditions</a> and{" "}
+                      <a target="_blank" href="privacy-policy">Privacy Policy</a>
+                    </label>
                   </div>
                 </div>
                 <div className="col-lg-12">

@@ -11,7 +11,7 @@ export function Lp2Header() {
             <div className="col-auto">
               <div className="logo">
                 <a href="/">
-                  <img src="/assets/images/one-line-logo.png" alt="" width={176} height={28} />
+                  <img src="/assets/images/one-line-logo.png" alt="" width={220} height={35} />
                 </a>
               </div>
             </div>

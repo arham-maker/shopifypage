@@ -5,7 +5,7 @@
         <h6>SEE WHAT WE'VE BEEN UP TO</h6>
         <div className="row">
           <div className="col-md-4">
-            <h3>Shopify stores weâ€™ve built</h3>
+            <h3>Shopify stores we've built</h3>
           </div>
           <div className="col-md-8">
             <p>We're dedicated to excellence and innovation, showcasing diverse projects across industries.

@@ -9,6 +9,8 @@ export { TestimonialsFaqSection } from './TestimonialsFaqSection';
 export { PricingHeroBanner } from './PricingHeroBanner';
 export { PricingPagePlansSection } from './PricingPagePlansSection';
 export { PricingPageFaqSection } from './PricingPageFaqSection';
+export { PackageDetailHeroBanner } from './PackageDetailHeroBanner';
+export { PackageDetailSection } from './PackageDetailSection';
 export { FaqHeroBanner } from './FaqHeroBanner';
 export { FaqPageSection } from './FaqPageSection';
 export { ProcessHeroBanner } from './ProcessHeroBanner';

@@ -7,7 +7,7 @@
             <h2>
               Maximize Your Passive Income with the 3 Automation Models Using Our Hybrid Infrastructure
             </h2>
-            <p>Weâ€™re able to diversify the sales approach with 3 effective distribution models, which leads to
+            <p>We're able to diversify the sales approach with 3 effective distribution models, which leads to
               increasing in Profit Margins of up to 30%, Uncapped Sales Volume, and tapping into High Revenue
               Streams with powerful high-frequency reselling techniques.</p>
           </div>

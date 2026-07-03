@@ -44,7 +44,7 @@ export function Lp2TrustClientSection() {
                       <img src="/assets/images/trust-client/profile2.png" alt="Profile" />
                     </div>
                     <div className="profileCont">
-                      <h6>Iâ€™m thrilled with the results!</h6>
+                      <h6>I'm thrilled with the results!</h6>
                       <div className="ratingIcon">
                         <i className="fas fa-star fa-fw" />
                         <i className="fas fa-star fa-fw" />

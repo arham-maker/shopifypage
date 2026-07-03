@@ -74,7 +74,7 @@ export function Lp2WhyChooseSection() {
                     <img src="/assets/images/c1.html" alt="" className="c1" />
                     <img src="/assets/images/s4.webp" alt="" />
                     <h5>Dedicated project manager</h5>
-                    <p>Youâ€™ll have a dedicated project manager as your main contact for clear
+                    <p>You'll have a dedicated project manager as your main contact for clear
                       communication, timely updates, and accountability throughout the process.</p>
                   </div>
                 </div>
