@@ -17,7 +17,7 @@ export function Lp2Header() {
             </div>
             <div className="col-auto ms-auto text-end">
               <ul className="phnchat">
-                <li><a href={SITE_PHONE_HREF}><i className="fas fa-phone-alt" />
+                <li><a href={SITE_PHONE_HREF}><i className="fas fa-phone phn-ico" />
                     {SITE_PHONE} </a></li>
                 <li><a href="#" onClick={() => window.setButtonURL?.()}><i className="fas fa-comment-alt" /> Chat
                     Now</a></li>
