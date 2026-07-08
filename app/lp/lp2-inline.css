@@ -38,16 +38,29 @@
 }
 
 .lp2-page header ul.phnchat > li a {
-  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
   font-size: 16px;
-  color: #333333;
+  color: #fff !important;
   text-transform: capitalize;
+  background: #5eb01d;
+  padding: 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.lp2-page header ul.phnchat > li a:hover {
+  background: #4a9016;
+  color: #fff !important;
+  transform: translateY(-1px);
 }
 
 .lp2-page header ul.phnchat > li a i {
   vertical-align: middle;
   margin-right: 7px;
-  color: #5eb01d;
+  color: #fff;
 }
 
 .lp2-page header ul.phnchat > li a i.phn-ico {
