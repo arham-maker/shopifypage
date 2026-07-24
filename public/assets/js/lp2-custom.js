@@ -22,100 +22,85 @@ $(document).ready(function () {
     });
 
 
-    $('.designSlider').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 10000,
-        fade: false,
-        autoplay: true,
-        autoplayspeed: 0,
-        centerMode: true,
-        pauseOnHover: true,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        cssEase: 'linear',
-        initialSlide: 1,
-        responsive: [{
-            breakpoint: 825,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
+    /* Slick is not loaded on /lp — only init if available so popup/chat handlers still bind */
+    if ($.fn.slick) {
+        if ($('.designSlider').length) {
+            $('.designSlider').slick({
+                dots: false,
+                arrows: false,
+                infinite: true,
+                speed: 10000,
+                fade: false,
+                autoplay: true,
+                autoplayspeed: 0,
+                centerMode: true,
+                pauseOnHover: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                cssEase: 'linear',
+                initialSlide: 1,
+                responsive: [{
+                    breakpoint: 825,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        }
 
-        ]
-    });
-    
-    // setTimeout(() => {
-    //     $(function() {
-    //         var maxHeight = 0;
-    //         $('.chseWrp').each(function(){
-    //             if (maxHeight < $(this).height()) {
-    //                 maxHeight = $(this).height();
-    //             }
-    //         });
-    //         $('div.chseWrp').each(function(){
-    //             $(this).height(maxHeight);
-    //         });
-    //     });
-    // }, 5000);
+        if ($('.designSlide2').length) {
+            $('.designSlide2').slick({
+                dots: false,
+                arrows: false,
+                infinite: true,
+                speed: 4000,
+                fade: false,
+                autoplay: true,
+                autoplayspeed: 0,
+                centerMode: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                cssEase: 'linear',
+                initialSlide: 1,
+                responsive: [{
+                    breakpoint: 825,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        }
 
-
-
-    $('.designSlide2').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 4000,
-        fade: false,
-        autoplay: true,
-        autoplayspeed: 0,
-        centerMode: true,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        cssEase: 'linear',
-        initialSlide: 1,
-        responsive: [{
-            breakpoint: 825,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-
-        ]
-
-    });
-
-
-    $('.monialSlider').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 1000,
-        fade: false,
-        autoplay: true,
-        autoplayspeed: 1500,
-        centerMode: true,
-        slidesToShow: 4,
-        variableWidth: false,
-        slidesToScroll: 1,
-        responsive: [{
-            breakpoint: 1441,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1
-            },
-            breakpoint: 824,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-
-        ]
-    });
+        if ($('.monialSlider').length) {
+            $('.monialSlider').slick({
+                dots: false,
+                arrows: false,
+                infinite: true,
+                speed: 1000,
+                fade: false,
+                autoplay: true,
+                autoplayspeed: 1500,
+                centerMode: true,
+                slidesToShow: 4,
+                variableWidth: false,
+                slidesToScroll: 1,
+                responsive: [{
+                    breakpoint: 1441,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    },
+                    breakpoint: 824,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        }
+    }
 
     $('.accordion-list > li > .answer').hide();
 
@@ -149,34 +134,35 @@ $(document).ready(function () {
 
     });
 
-
-    $('.popbtn').click(function () {
+    /* Delegated handlers so Get Started / package popups work even after dynamic markup */
+    $(document).on('click', '.popbtn', function (e) {
+        e.preventDefault();
         $('.overlay').fadeIn();
         $('#popuppack').fadeIn();
     });
 
-    $('.popbtn2').click(function () {
+    $(document).on('click', '.popbtn2', function (e) {
+        e.preventDefault();
         $('.overlay').fadeIn();
         $('#popuppack2').fadeIn();
 
         var packtitle = $(this).closest('.packageCard').find(".cardHead .cardHead-top h6").html();
         var packprice = $(this).closest('.packageCard').find(".cardHead .cardHead-bottom .price").html();
         var thisrel = $(this).attr('rel');
-        
+
         $(".package_html").empty();
         var package_html = $(this).closest('.packageCard').find('ul').text();
         $(".package_html").val($.trim(package_html));
-            $('input[name="package_name"]').val(packtitle);
+        $('input[name="package_name"]').val(packtitle);
         $('input[name="package_cost"]').val(packprice);
-        // $('input[name="package_cat"]').val(type);
-        //console.log(package_html);
 
         $('#popuppack2 .formpop input#popuppackage').val(thisrel);
         $("#popuppack2 .formpop h4").html(packtitle);
         $("#popuppack2 .formpop p").html("In Just <span>" + packprice + "</span>");
     });
 
-    $('.closeico1,.overlay').click(function () {
+    $(document).on('click', '.closeico1, .overlay', function (e) {
+        e.preventDefault();
         $('#popuppack').fadeOut();
         $('#popuppack2').fadeOut();
         $('.overlay').fadeOut();

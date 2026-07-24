@@ -1,8 +1,25 @@
 (function () {
-  function openChat() {
+  function openChat(event) {
+    if (event && typeof event.preventDefault === "function") {
+      event.preventDefault();
+    }
+
     if (typeof window.zE === "function") {
       window.zE("webWidget", "open");
+      return;
     }
+
+    // Widget snippet may still be loading — retry briefly
+    var tries = 0;
+    var timer = setInterval(function () {
+      tries += 1;
+      if (typeof window.zE === "function") {
+        clearInterval(timer);
+        window.zE("webWidget", "open");
+      } else if (tries >= 20) {
+        clearInterval(timer);
+      }
+    }, 250);
   }
 
   window.setButtonURL = openChat;
@@ -36,8 +53,7 @@
     }
 
     if (target.closest(".chat-btn, [data-open-chat]")) {
-      event.preventDefault();
-      openChat();
+      openChat(event);
     }
   });
 

@@ -78,7 +78,15 @@ export function Lp2HeroBanner() {
                   <a href="#" className="banner-mainBtn getstarted popbtn">
                     Let&apos;s Get Started
                   </a>
-                  <a href="#" onClick={() => window.setButtonURL?.()} className="chat-btn">
+                  <a
+                    href="#"
+                    className="chat-btn"
+                    data-open-chat
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.setButtonURL?.(e);
+                    }}
+                  >
                     <i className="fal fa-comment-alt" /> Chat Now{" "}
                   </a>
                 </div>

@@ -19,8 +19,19 @@ export function Lp2Header() {
               <ul className="phnchat">
                 <li><a href={SITE_PHONE_HREF}><i className="fas fa-phone phn-ico" />
                     {SITE_PHONE} </a></li>
-                <li><a href="#" onClick={() => window.setButtonURL?.()}><i className="fas fa-comment-alt" /> Chat
-                    Now</a></li>
+                <li>
+                  <a
+                    href="#"
+                    className="chat-btn"
+                    data-open-chat
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.setButtonURL?.(e);
+                    }}
+                  >
+                    <i className="fas fa-comment-alt" /> Chat Now
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

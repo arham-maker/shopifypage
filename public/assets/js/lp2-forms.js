@@ -70,10 +70,24 @@ $(document).ready(function () {
   });
 });
 
-function setButtonURL() {
-  if (typeof zE === "function") {
-    zE("webWidget", "open");
+function setButtonURL(event) {
+  if (event && typeof event.preventDefault === "function") {
+    event.preventDefault();
   }
+  if (typeof window.zE === "function") {
+    window.zE("webWidget", "open");
+    return;
+  }
+  var tries = 0;
+  var timer = setInterval(function () {
+    tries += 1;
+    if (typeof window.zE === "function") {
+      clearInterval(timer);
+      window.zE("webWidget", "open");
+    } else if (tries >= 20) {
+      clearInterval(timer);
+    }
+  }, 250);
 }
 
 window.setButtonURL = setButtonURL;

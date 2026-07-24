@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 export function Lp2PackagesSection() {
   return (
@@ -106,7 +106,7 @@ export function Lp2PackagesSection() {
                 <div>
                   <div className="btns_group">
                     <a href="#" className="getstarted popbtn2" title="Beginner Shopify" data-amount="$249" data-type="web">Get started <i className="fal fa-arrow-circle-right" /></a>
-                    <a href="#" onClick={() => window.setButtonURL?.()} className="view-info-btn">Chat Now </a>
+                    <a href="#" className="view-info-btn chat-btn" data-open-chat onClick={(e) => { e.preventDefault(); window.setButtonURL?.(e); }}>Chat Now </a>
                   </div>
                 </div>
               </div>
@@ -227,7 +227,7 @@ export function Lp2PackagesSection() {
                 <div>
                   <div className="btns_group">
                     <a href="#" className="getstarted popbtn2" title="Growth Shopify" data-amount="$599" data-type="web">Get started <i className="fal fa-arrow-circle-right" /></a>
-                    <a href="#" onClick={() => window.setButtonURL?.()} className="view-info-btn">Chat Now </a>
+                    <a href="#" className="view-info-btn chat-btn" data-open-chat onClick={(e) => { e.preventDefault(); window.setButtonURL?.(e); }}>Chat Now </a>
                   </div>
                 </div>
               </div>
@@ -348,7 +348,7 @@ export function Lp2PackagesSection() {
                 <div>
                   <div className="btns_group">
                     <a href="#" className="getstarted popbtn2" title="Level Up Shopify" data-amount="$999" data-type="web">Get started <i className="fal fa-arrow-circle-right" /></a>
-                    <a href="#" onClick={() => window.setButtonURL?.()} className="view-info-btn">Chat Now </a>
+                    <a href="#" className="view-info-btn chat-btn" data-open-chat onClick={(e) => { e.preventDefault(); window.setButtonURL?.(e); }}>Chat Now </a>
                   </div>
                 </div>
               </div>
@@ -493,7 +493,7 @@ export function Lp2PackagesSection() {
                 <div>
                   <div className="btns_group">
                     <a href="#" className="getstarted popbtn2" title="Pro Shopify" data-amount="$1499" data-type="web">Get started <i className="fal fa-arrow-circle-right" /></a>
-                    <a href="#" onClick={() => window.setButtonURL?.()} className="view-info-btn">Chat Now </a>
+                    <a href="#" className="view-info-btn chat-btn" data-open-chat onClick={(e) => { e.preventDefault(); window.setButtonURL?.(e); }}>Chat Now </a>
                   </div>
                 </div>
               </div>
@@ -674,7 +674,7 @@ export function Lp2PackagesSection() {
                 <div>
                   <div className="btns_group">
                     <a href="#" className="getstarted popbtn2" title="Executive Shopify" data-amount="$2499" data-type="web">Get started <i className="fal fa-arrow-circle-right" /></a>
-                    <a href="#" onClick={() => window.setButtonURL?.()} className="view-info-btn">Chat Now </a>
+                    <a href="#" className="view-info-btn chat-btn" data-open-chat onClick={(e) => { e.preventDefault(); window.setButtonURL?.(e); }}>Chat Now </a>
                   </div>
                 </div>
               </div>
@@ -918,7 +918,7 @@ export function Lp2PackagesSection() {
                 <div>
                   <div className="btns_group">
                     <a href="#" className="getstarted popbtn2" title="Top Tier Shopify" data-amount="$4999" data-type="web">Get started <i className="fal fa-arrow-circle-right" /></a>
-                    <a href="#" onClick={() => window.setButtonURL?.()} className="view-info-btn">Chat Now </a>
+                    <a href="#" className="view-info-btn chat-btn" data-open-chat onClick={(e) => { e.preventDefault(); window.setButtonURL?.(e); }}>Chat Now </a>
                   </div>
                 </div>
               </div>
