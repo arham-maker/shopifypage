@@ -2,7 +2,7 @@ export {};
 
 declare global {
   interface Window {
-    setButtonURL?: () => void;
+    setButtonURL?: (event?: { preventDefault?: () => void }) => void;
     zE?: (...args: unknown[]) => void;
     Swiper?: new (
       element: string | HTMLElement,
